@@ -39,18 +39,4 @@ models:
   dbt_project:
     # Applies to all files under models/example/
     +materialized: table 
-    staging:
-      +schema: stage
-
-    Intermediate:
-      master:
-        +schema: mstr   
-      Transactional:
-        +schema: Transactional
-          
-
-
-seeds:
-  dbt_project:
-    +schema: stage
 

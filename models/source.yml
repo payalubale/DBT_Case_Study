@@ -33,7 +33,8 @@ models:
       - name: cust_ctry_nm
         description: Customer Country Name of the customer master model
       - name: ctry_cd
-        description: Country Code of the customer master model              
+        description: Country Code of the customer master model   
+                   
   - name: prod_mstr
     description: Product Master table
     columns:
