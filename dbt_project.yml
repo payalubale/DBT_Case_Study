@@ -38,7 +38,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbt_project:
     # Applies to all files under models/example/
-
+    +materialized: table 
     staging:
       +schema: stage
 
@@ -47,7 +47,7 @@ models:
         +schema: mstr   
       Transactional:
         +schema: Transactional
-        +materialized: table   
+          
 
 
 seeds:

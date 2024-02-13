@@ -61,3 +61,8 @@ models:
         description: Prod Date of the product master model
       - name: category_code
         description: Category code of the product master model
+
+
+
+
+
